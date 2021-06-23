@@ -52,7 +52,7 @@ class Lexer:
 
     # to advance to nxt character
     def advance(self):
-        self.pos += 1  # done changes
+        self.pos += 1 
         self.current_char = self.text[self.pos] if self.pos < len(self.text) else None
 
     def make_tokens(self):
